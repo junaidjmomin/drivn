@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DRIVN — AI-Powered Urban Wellness Intelligence</title>
+    <meta name="description"
+        content="DRIVN is the world's first AI wellness tracker that connects your body, your mind, and your route — in real time. Join the waitlist." />
+
+    <!-- Fonts: Cyberpunk -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- ==========================================
+       1. HERO SECTION
+       ========================================== -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-image"></div>
+        <div class="blob blob-purple blob-1"></div>
+        <div class="blob blob-cyan blob-2"></div>
+        <div class="blob blob-pink blob-3"></div>
+
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="reveal glitch" data-text="DRIVN >>">DRIVN <span class="accent">&gt;&gt;</span></h1>
+                <p class="tagline reveal reveal-delay-1">Your city is stressing you out. DRIVN fights back.</p>
+                <p class="hero-body reveal reveal-delay-2">
+                    The world's first AI wellness tracker that connects your body, your mind, and your route — in real
+                    time.
+                </p>
+                <div class="hero-ctas reveal reveal-delay-3">
+                    <a href="#waitlist" class="btn btn-gold">Join the Waitlist</a>
+                    <a href="#how-it-works" class="btn btn-ghost">See How It Works</a>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal reveal-delay-2">
+                <div class="wearable-mockup">
+                    <div class="pulse-ring"></div>
+                    <div class="pulse-ring"></div>
+                    <div class="pulse-ring"></div>
+                    <div class="inner-ring">
+                        <div class="score-display">
+                            <div class="score-label">Wellness</div>
+                            <div class="score-value" id="heroScore">87</div>
+                            <div class="score-unit">/ 100</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+       2. PROBLEM STATS BAND
+       ========================================== -->
+    <section class="stats-band" id="problem">
+        <div class="container">
+            <div class="stats-grid">
+
+                <div class="stat-card glass-card reveal">
+                    <div class="stat-number" data-target="1000000000">1 Billion+</div>
+                    <p class="stat-text">people affected by mental health disorders</p>
+                    <span class="stat-source">WHO Global Report</span>
+                </div>
+
+                <div class="stat-card glass-card reveal reveal-delay-1">
+                    <div class="stat-number">90%</div>
+                    <p class="stat-text">of urban residents breathe polluted air daily</p>
+                    <span class="stat-source">World Bank Data</span>
+                </div>
+
+                <div class="stat-card glass-card reveal reveal-delay-2">
+                    <div class="stat-number">30%</div>
+                    <p class="stat-text">increase in stress hormones from noise pollution</p>
+                    <span class="stat-source">Environmental Research</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+       3. COMPETITOR LIMITATIONS
+       ========================================== -->
+    <section class="competitors" id="competitors">
+        <div class="container">
+            <p class="section-label reveal">The Problem</p>
+            <h2 class="section-title reveal reveal-delay-1">Current Solutions<br />Fall Short</h2>
+            <hr class="neon-line reveal reveal-delay-1" />
+
+            <div class="competitors-grid">
+
+                <div class="competitor-card reveal">
+                    <img src="https://images.unsplash.com/photo-1576243345690-4e4b79b63288?w=400&q=80"
+                        alt="Fitness tracker on wrist" class="card-img" />
+                    <span class="limitation-badge badge-red">Limited</span>
+                    <h3>Fitness Trackers</h3>
+                    <p class="brand">Fitbit / Garmin</p>
+                    <p>Track steps and heart rate — but zero awareness of the air you breathe or the noise stressing
+                        your body.</p>
+                </div>
+
+                <div class="competitor-card reveal reveal-delay-1">
+                    <img src="https://images.unsplash.com/photo-1593062096033-9a26b09da705?w=400&q=80"
+                        alt="Meditation app on phone" class="card-img" />
+                    <span class="limitation-badge badge-amber">Reactive</span>
+                    <h3>Mental Health Apps</h3>
+                    <p class="brand">Calm / Headspace</p>
+                    <p>Help you meditate after the damage is done. They react to stress — they don't prevent it in real
+                        time.</p>
+                </div>
+
+                <div class="competitor-card reveal reveal-delay-2">
+                    <img src="https://images.unsplash.com/photo-1569336415962-a4bd9f69cd83?w=400&q=80"
+                        alt="GPS navigation map" class="card-img" />
+                    <span class="limitation-badge badge-red">Blind</span>
+                    <h3>Navigation Apps</h3>
+                    <p class="brand">Google Maps</p>
+                    <p>Optimize for time or distance. They ignore your body, your stress levels, and the toxic air on
+                        your route.</p>
+                </div>
+
+                <div class="competitor-card reveal reveal-delay-3">
+                    <img src="https://images.unsplash.com/photo-1530497610245-94d3c16cda28?w=400&q=80"
+                        alt="Clinical medical device" class="card-img" />
+                    <span class="limitation-badge badge-amber">Impractical</span>
+                    <h3>Clinical Wearables</h3>
+                    <p class="brand">Medical Grade</p>
+                    <p>Powerful data, but too expensive, too bulky, and never designed for everyday urban life.</p>
+                </div>
+
+            </div>
+
+            <div class="competitors-cta reveal">
+                <p>DRIVN <span class="gold-text">connects all of this.</span></p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+       4. HOW IT WORKS
+       ========================================== -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <p class="section-label reveal">The Process</p>
+            <h2 class="section-title reveal reveal-delay-1">How It Works</h2>
+            <hr class="neon-line reveal reveal-delay-1" />
+
+            <div class="flow-timeline">
+
+                <div class="flow-step reveal">
+                    <div class="flow-step-number">01</div>
+                    <div class="flow-step-content">
+                        <h3>Data Capture</h3>
+                        <p>Wearable collects HRV, SpO₂, and movement data continuously throughout your day.</p>
+                    </div>
+                </div>
+
+                <div class="flow-step reveal reveal-delay-1">
+                    <div class="flow-step-number">02</div>
+                    <div class="flow-step-content">
+                        <h3>Edge Processing</h3>
+                        <p>On-device AI preprocesses data in real time — no cloud delay, full privacy.</p>
+                    </div>
+                </div>
+
+                <div class="flow-step reveal reveal-delay-2">
+                    <div class="flow-step-number">03</div>
+                    <div class="flow-step-content">
+                        <h3>Wellness Score</h3>
+                        <p>A real-time score from 0–100, combining biometric, behavioral, and environmental data.</p>
+                    </div>
+                </div>
+
+                <div class="flow-step reveal reveal-delay-3">
+                    <div class="flow-step-number">04</div>
+                    <div class="flow-step-content">
+                        <h3>Stress & Trend Analysis</h3>
+                        <p>AI detects stress patterns across days and weeks — learns what triggers your body.</p>
+                    </div>
+                </div>
+
+                <div class="flow-step reveal reveal-delay-4">
+                    <div class="flow-step-number">05</div>
+                    <div class="flow-step-content">
+                        <h3>Context-Aware Optimization</h3>
+                        <p>Suggests healthier routes and schedule adjustments based on your body + environment.</p>
+                    </div>
+                </div>
+
+                <div class="flow-step reveal reveal-delay-5">
+                    <div class="flow-step-number">06</div>
+                    <div class="flow-step-content">
+                        <h3>Actionable Insights</h3>
+                        <p>Smart nudges delivered to your phone — actionable, timely, personal.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+       5. CORE FEATURES GRID
+       ========================================== -->
+    <section class="features" id="features">
+        <div class="container">
+            <p class="section-label reveal">Core Features</p>
+            <h2 class="section-title reveal reveal-delay-1">Everything Connected.<br />Nothing Missed.</h2>
+            <hr class="neon-line reveal reveal-delay-1" />
+
+            <div class="features-grid">
+
+                <div class="feature-card reveal">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                        </svg>
+                    </div>
+                    <h3>Biometric Fusion</h3>
+                    <p>HRV, SpO₂, and activity tracking fused into a single real-time health signal. Your body, fully
+                        understood.</p>
+                </div>
+
+                <div class="feature-card reveal reveal-delay-1">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                        </svg>
+                    </div>
+                    <h3>Environmental Intelligence</h3>
+                    <p>Real-time AQI and noise mapping layered on top of your biometrics. Know what's affecting you —
+                        and where.</p>
+                </div>
+
+                <div class="feature-card reveal reveal-delay-2">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24">
+                            <polygon points="3 11 22 2 13 21 11 13 3 11" />
+                        </svg>
+                    </div>
+                    <h3>Wellness Routes</h3>
+                    <p>Navigate by stress, not just time. Routes optimized for cleaner air, lower noise, and better
+                        wellbeing.</p>
+                </div>
+
+                <div class="feature-card reveal reveal-delay-3">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24">
+                            <path d="M18 20V10M12 20V4M6 20v-6" />
+                        </svg>
+                    </div>
+                    <h3>Wellness Dashboard</h3>
+                    <p>Live score + long-term trends. See your wellness trajectory over days, weeks, and months.</p>
+                </div>
+
+                <div class="feature-card reveal reveal-delay-4">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M21 2l-2 2m-7.61 7.61a5.5 5.5 0 1 1-7.778 7.778 5.5 5.5 0 0 1 7.777-7.777zm0 0L15.5 7.5m0 0l3 3L22 7l-3-3m-3.5 3.5L19 4" />
+                        </svg>
+                    </div>
+                    <h3>Adaptive AI</h3>
+                    <p>Learns your personal stress triggers and adapts recommendations. It gets smarter the more you use
+                        it.</p>
+                </div>
+
+                <div class="feature-card reveal reveal-delay-5">
+                    <div class="icon-box">
+                        <svg viewBox="0 0 24 24">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+                        </svg>
+                    </div>
+                    <h3>Privacy by Design</h3>
+                    <p>On-device Edge AI processing, end-to-end encryption, fully GDPR-compliant. Your data stays yours.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+       6. SDG IMPACT
+       ========================================== -->
+    <section class="sdg-impact" id="sdg">
+        <div class="container">
+            <p class="section-label reveal">Global Impact</p>
+            <h2 class="section-title reveal reveal-delay-1">Aligned With the<br />UN Sustainable Goals</h2>
+            <hr class="neon-line reveal reveal-delay-1" />
+
+            <div class="sdg-grid">
+
+                <div class="sdg-card sdg-card-3 reveal">
+                    <span class="sdg-number">03</span>
+                    <span class="sdg-badge">SDG 3</span>
+                    <h3>Good Health &<br />Well-Being</h3>
+                    <p>DRIVN empowers individuals with real-time health intelligence, enabling proactive stress
+                        management and better mental health outcomes across urban populations.</p>
+                </div>
+
+                <div class="sdg-card sdg-card-11 reveal reveal-delay-1">
+                    <span class="sdg-number">11</span>
+                    <span class="sdg-badge">SDG 11</span>
+                    <h3>Sustainable Cities &<br />Communities</h3>
+                    <p>By mapping environmental stressors and routing people through healthier paths, DRIVN contributes
+                        to smarter, more livable urban environments.</p>
+                </div>
+
+                <div class="sdg-card sdg-card-17 reveal reveal-delay-2">
+                    <span class="sdg-number">17</span>
+                    <span class="sdg-badge">SDG 17</span>
+                    <h3>Partnerships for<br />the Goals</h3>
+                    <p>Built through cross-sector collaboration — combining IoT hardware, AI research, open
+                        environmental data, and urban health expertise.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+       7. TARGET AUDIENCE
+       ========================================== -->
+    <section class="audience" id="audience">
+        <div class="container">
+            <p class="section-label reveal">Who It's For</p>
+            <h2 class="section-title reveal reveal-delay-1">Built for People<br />Who Move Through Cities</h2>
+            <hr class="neon-line reveal reveal-delay-1" />
+
+            <div class="audience-grid">
+
+                <div class="persona-card reveal">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80"
+                        alt="Urban professional" class="card-img" />
+                    <div>
+                        <h3>Urban Professionals & Commuters</h3>
+                        <p class="persona-pain">"My commute leaves me drained before I even start work."</p>
+                        <p class="persona-solution">DRIVN finds your lowest-stress route and optimizes your schedule.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="persona-card reveal reveal-delay-1">
+                    <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=200&q=80"
+                        alt="Students studying" class="card-img" />
+                    <div>
+                        <h3>Students & High-Stress Lifestyles</h3>
+                        <p class="persona-pain">"I know I'm stressed but I don't know what's causing it."</p>
+                        <p class="persona-solution">DRIVN identifies your triggers and gives you data-backed solutions.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="persona-card reveal reveal-delay-2">
+                    <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=200&q=80"
+                        alt="Healthcare worker" class="card-img" />
+                    <div>
+                        <h3>Healthcare Workers & Caregivers</h3>
+                        <p class="persona-pain">"I take care of everyone except myself."</p>
+                        <p class="persona-solution">DRIVN watches your vitals so you don't have to — and nudges you when
+                            it matters.</p>
+                    </div>
+                </div>
+
+                <div class="persona-card reveal reveal-delay-3">
+                    <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=200&q=80"
+                        alt="Person meditating" class="card-img" />
+                    <div>
+                        <h3>Mental Health-Conscious Individuals</h3>
+                        <p class="persona-pain">"I want real data, not another meditation timer."</p>
+                        <p class="persona-solution">DRIVN gives you a Wellness Score backed by biometrics and
+                            environment.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+       8. TECH STACK / TRUST BAR
+       ========================================== -->
+    <section class="tech-stack" id="tech">
+        <div class="container">
+            <p class="section-label reveal">Technology</p>
+            <h2 class="section-title reveal reveal-delay-1">Built on Proven Technology.<br />Designed for Scale.</h2>
+            <hr class="neon-line reveal reveal-delay-1" style="margin: 20px auto 30px;" />
+
+            <div class="tech-logos reveal reveal-delay-2">
+                <div class="tech-logo">ESP32</div>
+                <div class="tech-logo">TensorFlow Lite</div>
+                <div class="tech-logo">AWS IoT</div>
+                <div class="tech-logo">Firebase</div>
+                <div class="tech-logo">OpenAQ API</div>
+                <div class="tech-logo">Google Maps API</div>
+            </div>
+
+            <div class="trust-pillars reveal reveal-delay-3">
+                <div class="trust-pillar">
+                    <h4>Technical</h4>
+                    <p>Edge AI + Cloud hybrid architecture</p>
+                </div>
+                <div class="trust-pillar">
+                    <h4>Financial</h4>
+                    <p>Sub-$50 BOM, scalable SaaS model</p>
+                </div>
+                <div class="trust-pillar">
+                    <h4>Practical</h4>
+                    <p>3-phase validation with real users</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+       9. VALIDATION ROADMAP
+       ========================================== -->
+    <section class="roadmap" id="roadmap">
+        <div class="container">
+            <p class="section-label reveal" style="text-align:center;">Roadmap</p>
+            <h2 class="section-title reveal reveal-delay-1" style="text-align:center;">Validation<br />Roadmap</h2>
+            <hr class="neon-line reveal reveal-delay-1" style="margin: 20px auto 30px;" />
+
+            <div class="roadmap-timeline">
+
+                <div class="roadmap-phase reveal">
+                    <div class="phase-dot"></div>
+                    <span class="phase-label">Phase 1</span>
+                    <h3>Lab Validation</h3>
+                    <p>Controlled environment testing of sensor fusion, AI models, and Wellness Score accuracy.</p>
+                </div>
+
+                <div class="roadmap-phase reveal reveal-delay-2">
+                    <div class="phase-dot"></div>
+                    <span class="phase-label">Phase 2</span>
+                    <h3>Pilot Program</h3>
+                    <p>50 devices deployed with early adopters. Real-world data collection and user feedback loops.</p>
+                </div>
+
+                <div class="roadmap-phase reveal reveal-delay-4">
+                    <div class="phase-dot"></div>
+                    <span class="phase-label">Phase 3</span>
+                    <h3>Field Trial</h3>
+                    <p>Corporate wellness partner integration. Large-scale validation with measurable health outcomes.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+       10. WAITLIST CTA
+       ========================================== -->
+    <section class="waitlist-cta" id="waitlist">
+        <div class="blob blob-purple blob-w1"></div>
+        <div class="blob blob-cyan blob-w2"></div>
+
+        <div class="container waitlist-content">
+            <h2 class="reveal glitch">Be First to Move<br />With <span
+                    style="color: var(--gold); text-shadow: 0 0 40px rgba(245,200,66,0.4);">Purpose.</span></h2>
+            <p class="waitlist-sub reveal reveal-delay-1">Get early access to DRIVN and join the movement toward
+                intelligent urban wellness.</p>
+
+            <form class="waitlist-form reveal reveal-delay-2" id="waitlistForm">
+                <input type="email" placeholder="Enter your email address" required id="waitlistEmail" />
+                <button type="submit" class="btn btn-gold">Get Early Access</button>
+            </form>
+
+            <p class="social-proof reveal reveal-delay-3">Join <strong>500+</strong> early adopters already on the list.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- ==========================================
+       11. FOOTER
+       ========================================== -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">DRIVN<span>.</span></div>
+                    <p class="footer-tagline">AI-Powered Urban Wellness Intelligence</p>
+                </div>
+
+                <nav class="footer-links">
+                    <a href="#problem">About</a>
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#sdg">SDG Impact</a>
+                    <a href="#waitlist">Contact</a>
+                </nav>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-team"><strong>Team:</strong> Junaid Momin · Darshan Patel · Pranay Shetty · Arnav Gurao
+                </p>
+                <p class="footer-company">Ingoude Company &copy; 2026</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
