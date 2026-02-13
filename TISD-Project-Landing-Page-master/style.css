@@ -981,8 +981,9 @@ body::before {
   position: absolute;
   inset: 0;
   z-index: 0;
-  opacity: 0.08;
-  background: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=1920&q=80') center/cover no-repeat;
+  opacity: 0.25;
+  background: url('hero-cyberpunk.png') center/cover no-repeat;
+  filter: saturate(1.2) contrast(1.1);
 }
 
 
