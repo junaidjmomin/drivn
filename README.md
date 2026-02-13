@@ -315,13 +315,6 @@ print(result)
 "
 ```
 
-## 🤝 Team
-
-- **Junaid Momin** - Project Lead
-- **Darshan Patel** - Full-stack Development
-- **Pranay Shetty** - ML Engineering
-- **Arnav Gurao** - Design & UX
-
 ## 📄 License
 
 Part of DRIVN - AI-Powered Urban Wellness Intelligence by **Ingoude Company**
