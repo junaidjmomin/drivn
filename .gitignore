@@ -63,7 +63,7 @@ temp/
 *.tmp
 
 # Root-level Python files from old structure (cleanup)
-stress_predictor.py
-train_stress_model.py
-api_server.py
-example_sensor_data.py
+/stress_predictor.py
+/train_stress_model.py
+/api_server.py
+/example_sensor_data.py
