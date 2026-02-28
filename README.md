@@ -1,4 +1,4 @@
-# DRIVN — AI-Powered Urban Wellness Intelligence
+DRIVN — AI-Powered Urban Wellness Intelligence
 
 A full-stack application combining a cyberpunk-themed landing page with an advanced machine learning stress prediction system using MAX30102 (heart rate/SpO2), ECG, and AQI sensor data.
 
